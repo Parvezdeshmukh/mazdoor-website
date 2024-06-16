@@ -108,3 +108,8 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// git statu
+// git add .
+// commit -m "Mrer"
+// git push

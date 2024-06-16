@@ -29,7 +29,7 @@ const ContactUsSection = () => {
                 <div className="email">
                   <i className="bi bi-envelope" />
                   <h4>Email:</h4>
-                  <p>mazdoor123@gmail.com</p>
+                  <p>mazdur123@gmail.com</p>
                 </div>
                 <div className="phone">
                   <i className="bi bi-phone" />

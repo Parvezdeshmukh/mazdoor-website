@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-6 footer-contact">
-                <h3>Mazdoor</h3>
+                <h3>Mazdur</h3>
                 <p>
                   Aarif Colony <br />
                   Aurangabad, MH
@@ -90,7 +90,7 @@ const Footer = () => {
               </div>
               <div className="col-lg-3 col-md-6 footer-links">
                 <h4>Our Social Networks</h4>
-                <p>to connect our Mazdoor team</p>
+                <p>to connect our Mazdur team</p>
                 <div className="social-links mt-3">
                   <a href="#" className="twitter">
                     <i className="bx bxl-twitter" />
@@ -116,12 +116,12 @@ const Footer = () => {
           <div className="copyright">
             © Copyright{" "}
             <strong>
-              <span>Mazdoor</span>
+              <span>Mazdur</span>
             </strong>
             . All Rights Reserved
           </div>
           <div className="credits">
-            Designed by <a href="#">Mazdoor</a>
+            Designed by <a href="#">Mazdur</a>
           </div>
         </div>
       </footer>
