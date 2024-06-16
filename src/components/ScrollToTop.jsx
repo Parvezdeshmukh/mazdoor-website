@@ -29,11 +29,7 @@ const ScrollToTopButton = () => {
   return (
     <div>
       {isVisible && (
-        <a
-          className="scroll-to-top"
-          href="#page-top"
-          onClick={scrollToTop}
-        >
+        <a className="scroll-to-top" href="#page-top" onClick={scrollToTop}>
           <FeatherIcon className="link-icon" icon="chevron-up" />
         </a>
       )}

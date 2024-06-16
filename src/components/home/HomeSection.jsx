@@ -23,7 +23,7 @@ const HomeSection = () => {
             >
               <h1>Better Solutions For Your Business</h1>
               <h2>
-                We are team of talented Developer making websites with Mazdoor
+                We are team of talented Developer making websites with Mazdur
               </h2>
               <div className="d-flex justify-content-center justify-content-lg-start">
                 <a

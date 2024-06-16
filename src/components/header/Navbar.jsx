@@ -24,7 +24,7 @@ const Navbar = () => {
       >
         <div className="container d-flex align-items-center">
           <h1 className="logo me-auto">
-            <a href="index.html">Mazdoor</a>
+            <a href="index.html">Mazdur</a>
           </h1>
           {/* Uncomment below if you prefer to use an image logo */}
           {/* <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> */}
