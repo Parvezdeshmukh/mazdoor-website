@@ -11,13 +11,11 @@ const AboutSection = () => {
           </div>
           <div className="row content">
             <div className="col-lg-6">
-              <p>
-                Mazdoor - Your One-Stop Shop for Doorstep Services in India.
-              </p>
+              <p>Mazdur - Your One-Stop Shop for Doorstep Services in India.</p>
               <ul>
                 <li>
                   <i className="ri-check-double-line" />
-                  Mazdoor is a leading Indian company dedicated to making your
+                  Mazdur is a leading Indian company dedicated to making your
                   life easier.
                 </li>
                 <li>
