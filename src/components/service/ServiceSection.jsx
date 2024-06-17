@@ -89,7 +89,7 @@ const ServiceSection = () => {
               </div>
             </div>
             <div className="section-title mt-5">
-              <h2>What Makes Mazdoor Different?</h2>
+              <h2>What Makes Mazdur Different?</h2>
               <p>
                 We don't just offer doorstep services - we provide an
                 unparalleled user experience:

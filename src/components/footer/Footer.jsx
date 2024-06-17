@@ -29,14 +29,14 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6 footer-contact">
                 <h3>Mazdur</h3>
                 <p>
-                  Aarif Colony <br />
+                  Plot 13 S No 45 Vishranti Nagar <br />
                   Aurangabad, MH
                   <br />
                   India <br />
                   <br />
-                  <strong>Phone:</strong> +917774062405
+                  <strong>Phone:</strong> +917798559098
                   <br />
-                  <strong>Email:</strong> musharraf@gmail.com
+                  <strong>Email:</strong>mazdur123@gmail.com
                   <br />
                 </p>
               </div>

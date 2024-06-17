@@ -24,7 +24,7 @@ const ContactUsSection = () => {
                 <div className="address">
                   <i className="bi bi-geo-alt" />
                   <h4>Location:</h4>
-                  <p>Arif Colony near Jama Masjid Aurangabad MH</p>
+                  <p>Plot 13 S No 45 Vishranti Nagar Aurangabad</p>
                 </div>
                 <div className="email">
                   <i className="bi bi-envelope" />
@@ -34,7 +34,7 @@ const ContactUsSection = () => {
                 <div className="phone">
                   <i className="bi bi-phone" />
                   <h4>Call:</h4>
-                  <p> +917774062405</p>
+                  <p> +917798559098</p>
                 </div>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
