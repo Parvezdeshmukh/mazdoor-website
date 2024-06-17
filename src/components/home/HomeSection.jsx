@@ -1,6 +1,6 @@
 import React from "react";
 import "../../assets/css/style.css";
-import maz from "../../assets/img/maz.png";
+import imgg from "../../assets/img/imgg.png";
 // import client1 from "../../assets/img/clients/client1.png";
 // import client2 from "../../assets/img/clients/client2.png";
 // import client3 from "../../assets/img/clients/client3.png";
@@ -47,7 +47,7 @@ const HomeSection = () => {
               data-aos="zoom-in"
               data-aos-delay={200}
             >
-              <img src={maz} className="img-fluid animated" alt />
+              <img src={imgg} className="img-fluid animated" alt />
             </div>
           </div>
         </div>
