@@ -227,10 +227,10 @@ const TeamSection = () => {
           <div className="faq-list">
             <ul>
               <li data-aos="fade-up" data-aos-delay={200}>
-                <i className="bx bx-help-circle icon-help" />{" "}
+                <i className="bx bx-help-circle icon-help" />
                 <a
                   data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-2"
+                  href="#faq-list-2"
                   className="collapsed"
                 >
                   Our Mission: <i className="bx bx-chevron-down icon-show" />
@@ -249,10 +249,10 @@ const TeamSection = () => {
                 </div>
               </li>
               <li data-aos="fade-up" data-aos-delay={300}>
-                <i className="bx bx-help-circle icon-help" />{" "}
+                <i className="bx bx-help-circle icon-help" />
                 <a
                   data-bs-toggle="collapse"
-                  data-bs-target="#faq-list-3"
+                  href="#faq-list-3"
                   className="collapsed"
                 >
                   Our Vision <i className="bx bx-chevron-down icon-show" />
