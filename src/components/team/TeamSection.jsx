@@ -5,6 +5,18 @@ import team2 from "../../assets/img/team/team2.jpg";
 import team3 from "../../assets/img/team/team3.jpg";
 
 const TeamSection = () => {
+  const [collapsed, setCollapsed] = useState({
+    faq2: true,
+    faq3: true,
+  });
+
+  const toggleCollapse = (faq) => {
+    setCollapsed((prevState) => ({
+      ...prevState,
+      [faq]: !prevState[faq],
+    }));
+  };
+
   return (
     <>
       {/* ======= Team Section ======= */}
@@ -227,18 +239,18 @@ const TeamSection = () => {
           <div className="faq-list">
             <ul>
               <li data-aos="fade-up" data-aos-delay={200}>
-                <i className="bx bx-help-circle icon-help" />
+                <i className="bx bx-help-circle icon-help" />{" "}
                 <a
-                  data-bs-toggle="collapse"
-                  href="#faq-list-2"
-                  className="collapsed"
+                  href="#!"
+                  onClick={() => toggleCollapse("faq2")}
+                  className={collapsed.faq2 ? "collapsed" : ""}
                 >
                   Our Mission: <i className="bx bx-chevron-down icon-show" />
                   <i className="bx bx-chevron-up icon-close" />
                 </a>
                 <div
                   id="faq-list-2"
-                  className="collapse"
+                  className={`collapse ${collapsed.faq2 ? "" : "show"}`}
                   data-bs-parent=".faq-list"
                 >
                   <p>
@@ -249,18 +261,18 @@ const TeamSection = () => {
                 </div>
               </li>
               <li data-aos="fade-up" data-aos-delay={300}>
-                <i className="bx bx-help-circle icon-help" />
+                <i className="bx bx-help-circle icon-help" />{" "}
                 <a
-                  data-bs-toggle="collapse"
-                  href="#faq-list-3"
-                  className="collapsed"
+                  href="#!"
+                  onClick={() => toggleCollapse("faq3")}
+                  className={collapsed.faq3 ? "collapsed" : ""}
                 >
                   Our Vision <i className="bx bx-chevron-down icon-show" />
                   <i className="bx bx-chevron-up icon-close" />
                 </a>
                 <div
                   id="faq-list-3"
-                  className="collapse"
+                  className={`collapse ${collapsed.faq3 ? "" : "show"}`}
                   data-bs-parent=".faq-list"
                 >
                   <p>
