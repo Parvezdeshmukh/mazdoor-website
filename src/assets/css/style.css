@@ -474,6 +474,9 @@ h6 {
 }
 
 @media (max-width: 768px) {
+  #hero {
+    height: 87vh;
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -484,17 +487,17 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-
-  /* #hero .hero-img img {
+  /* 
+  #hero .hero-img img {
     height: 100%;
     position: relative;
-    bottom: 10px;
-  }
-} */
+    bottom: 60px;
+  } */
+}
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 85%;
+    width: 100%;
   }
 
   #hero .btn-get-started {
