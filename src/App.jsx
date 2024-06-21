@@ -14,9 +14,9 @@ const App = () => {
     <>
       <Navbar />
       <HomeSection />
+      <AboutSection />
       <ServiceSection />
       <TeamSection />
-      <AboutSection />
       <ContactUsSection />
       <Footer />
     </>
