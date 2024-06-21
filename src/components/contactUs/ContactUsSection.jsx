@@ -37,7 +37,7 @@ const ContactUsSection = () => {
                   <i className="bi bi-phone" />
                   <h4>Call:</h4>
                   <p>
-                    <a href="tel:+917798559098">+91 77985 59098</a>
+                    <a href="tel:+917798559098">+917798559098</a>
                   </p>
                 </div>
                 <iframe
