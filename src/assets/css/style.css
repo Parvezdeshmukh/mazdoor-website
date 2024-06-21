@@ -485,12 +485,12 @@ h6 {
     margin-bottom: 30px;
   }
 
-  #hero .hero-img img {
+  /* #hero .hero-img img {
     height: 100%;
     position: relative;
     bottom: 10px;
   }
-}
+} */
 
 @media (max-width: 575px) {
   #hero .hero-img img {
