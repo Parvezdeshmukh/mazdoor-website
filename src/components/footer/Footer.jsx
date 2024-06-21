@@ -34,9 +34,11 @@ const Footer = () => {
                   <br />
                   India <br />
                   <br />
-                  <strong>Phone:</strong> +917798559098
+                  <strong>Phone:</strong>
+                  <a href="tel:+917798559098"> +91 77985 59098</a>
                   <br />
-                  <strong>Email:</strong>mazdur123@gmail.com
+                  <strong>Email:</strong>{" "}
+                  <a href="mailto:mazdur123@gmail.com"> mazdur123@gmail.com</a>
                   <br />
                 </p>
               </div>

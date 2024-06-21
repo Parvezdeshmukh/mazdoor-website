@@ -7,6 +7,7 @@ import TeamSection from "./components/team/TeamSection";
 import ContactUsSection from "./components/contactUs/ContactUsSection";
 import Footer from "./components/footer/Footer";
 import "../src/assets/css/style.css";
+import ScrollToTop from "../src/components/ScrollToTop";
 // import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <ServiceSection />
       <TeamSection />
       <ContactUsSection />
+      <ScrollToTop />
       <Footer />
     </>
   );

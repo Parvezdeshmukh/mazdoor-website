@@ -7,7 +7,6 @@ import mzd from "../../assets/img/mzd.png";
 // import client4 from "../../assets/img/clients/client4.png";
 // import client5 from "../../assets/img/clients/client5.png";
 // import client6 from "../../assets/img/clients/client6.png";
-import ScrollToTop from "../ScrollToTop";
 
 const HomeSection = () => {
   return (
@@ -80,7 +79,6 @@ const HomeSection = () => {
         </div>
       </section>
       {/* End Cliens Section */}
-      <ScrollToTop />
     </div>
   );
 };
