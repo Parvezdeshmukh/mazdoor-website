@@ -22,7 +22,8 @@ const HomeSection = () => {
             >
               <h1>Better Solutions For Your Business</h1>
               <h2>
-                We are team of talented Developer making websites with Mazdur
+                Mazdur creates high-quality, tailored apps to help your business
+                thrive.
               </h2>
               <div className="d-flex justify-content-center justify-content-lg-start">
                 <a
