@@ -21,7 +21,7 @@ const ServiceSection = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bxl-dribbble" />
+                  <i className="fa-solid fa-wrench"></i>
                 </div>
                 <h4>
                   <a href>Plumbing</a>
@@ -39,7 +39,7 @@ const ServiceSection = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bx-file" />
+                  <i className="fa-solid fa-bolt"></i>
                 </div>
                 <h4>
                   <a href>Electricians</a>
@@ -58,7 +58,7 @@ const ServiceSection = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bx-tachometer" />
+                  <i className="fa-solid fa-hand"></i>
                 </div>
                 <h4>
                   <a href>Handyman Services</a>
@@ -77,7 +77,7 @@ const ServiceSection = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bx-layer" />
+                  <i className="fa-solid fa-person-military-pointing"></i>
                 </div>
                 <h4>
                   <a href>Excellent Customer Support</a>
@@ -102,7 +102,7 @@ const ServiceSection = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bx-layer" />
+                  <i className="fa-solid fa-genderless"></i>
                 </div>
                 <h4>
                   <a href>Seamless Booking</a>
@@ -120,7 +120,7 @@ const ServiceSection = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bx-layer" />
+                  <i className="fa-solid fa-user-tie"></i>
                 </div>
                 <h4>
                   <a href>Verified Professionals</a>
@@ -156,7 +156,7 @@ const ServiceSection = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <i className="bx bx-layer" />
+                  <i className="fa-solid fa-money-check-dollar"></i>
                 </div>
                 <h4>
                   <a href>Secure Payment Options</a>

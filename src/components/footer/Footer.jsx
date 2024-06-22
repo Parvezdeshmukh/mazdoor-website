@@ -95,7 +95,7 @@ const Footer = () => {
                 <p>to connect our Mazdur team</p>
                 <div className="social-links mt-3">
                   <a href="#" className="twitter">
-                    <i className="bx bxl-twitter" />
+                    <i className="fa-brands fa-x-twitter"></i>
                   </a>
                   <a href="#" className="facebook">
                     <i className="bx bxl-facebook" />
